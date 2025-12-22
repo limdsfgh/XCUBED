@@ -1,0 +1,689 @@
+:root {
+  --cprimary: #5DD62C;
+}
+html,
+body {
+    overflow-x: hidden;
+}
+
+.text-color {
+  color: var(--cprimary);
+}
+
+
+body {
+  background-color: #0F0F0F;
+}
+
+.container-fluid {
+  padding:0 40px 0 40px;
+  
+}
+
+.container-fluid_2 {
+  padding:60px 40px 60px 40px;
+  
+}
+
+
+.section-title {
+  margin-bottom: 77px;
+}
+
+.service-title {
+  margin-bottom: 53px;
+}
+
+.service-desc {
+  margin-bottom: 153px;
+}
+
+
+.section-1 {
+  padding: 87px 0 20px 0;
+}
+
+.services-content_1{
+  padding-top: 43px;
+}
+
+
+
+
+
+
+.bg1 {
+  position: relative;
+  background-image: url("website\ bg\ 1.png");
+  background-size: cover;
+}
+
+.bg2 {
+  background-image: url("website\ bg\ 2.png");
+  background-size: cover;
+  background-position: relative;
+
+}
+
+.bg3 {
+  background-image: url("BGbottom.png");
+  background-size: cover;
+  background-position: relative;
+
+}
+
+.learn-more-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: "Signika", sans-serif;
+  height: 54px;
+  padding: 0 20px;
+  border-radius: 18px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+
+  background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
+  
+  transition: all 0.3s; /* 平滑过渡 */
+}
+
+/* hover 时按钮变宽，箭头滑动 */
+.learn-more-button:hover,
+.learn-more-button:focus {
+  background: linear-gradient(to bottom, #ffffff 0%, #202020 100%);
+  box-shadow:
+    inset 0px 3px 1.6px #ffffff,
+    inset -1px 0px 2.4px #ffffff,
+    inset -2px 0px 4px #4D4D4D,
+    inset 2px 0px 3.1px #4D4D4D,
+    inset 0px -2px 3px #ffffff,
+    inset 0px -3px 3.2px #BDBDBD;
+
+  padding-right: 35px; /* hover时右边多出空间让箭头滑动 */
+}
+
+.button-arrow {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+/* 箭头向右滑动 */
+.learn-more-button:hover .button-arrow {
+  transform: translateX(10px);
+}
+
+/* 箭头滑动效果 */
+.button-arrow {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+
+
+.learn-more-button:active {
+  transform: translateY(3px);
+  box-shadow:
+    inset 0 6px 10px rgba(183, 140, 140, 0.45);
+}
+
+
+
+
+
+
+
+
+
+.img {
+  transform: translateY(-43px);
+}
+
+.img_2 {
+  transform: translateY(0);
+}
+
+
+hr {
+  margin: 0;
+  opacity: none;
+  border: none;
+  border-top: 1px solid #FFFFFF;
+  height: 1px;
+  background: none;
+  opacity: 1;
+}
+
+
+
+
+
+/*xinle de footer*/
+
+.footer {
+  background-color: #0F0F0F;
+  color: #fff;
+  padding: 30px 54px 55px 147px;
+}
+
+.footer_logo {
+  padding-bottom: 42px;
+}
+
+.footer-row {
+  width: 100%;
+}
+
+.footer_icon .col-auto {
+  margin: 0 0px;
+  padding-bottom: 57px;
+
+}
+
+.footer_icon {
+  padding-left: 80px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover p {
+  text-decoration: none;
+  color: #5DD62C;
+
+}
+
+.footer_link a {
+  display: block;
+  width: fit-content;
+
+
+}
+
+.footer_link a p {
+  display: inline-block;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.footer_link a {
+  margin-bottom: 25px;
+}
+
+.footer_link a:last-child {
+  margin-bottom: 0;
+}
+
+.footer_copyright p {
+  margin: 0 !important;
+}
+
+.footer_contact p {
+  margin-bottom: 25px;
+}
+
+.footer_contact p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+/* xinle de css*/
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+  color: #227418;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+  color: #5DD62C;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+
+  font-size: 28px;
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+
+.navbar {
+  background-color: #0F0F0F;
+  z-index: 999;
+  padding-right: 0px !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.offcanvas-custom {
+  background-color: #0F0F0F;
+  width: 150px !important;
+}
+
+.offcanvas-title-custom {
+  color: #ffffff;
+}
+
+.offcanvas .btn-close {
+  filter: invert(1) !important;
+}
+
+.navbar-nav-custom {
+  margin-right: 42px;
+
+}
+
+.nav-item,
+.button_custom {
+  padding: 0px !important;
+  margin: 0px 0px 0px 20px;
+}
+
+.button_custom {
+  border: none;
+  border-radius: 100px;
+  background: none;
+  color: #FFFFFF;
+
+}
+
+.navbar-nav-custom .nav-item .nav-link:hover,
+.navbar-nav-custom .nav-item .nav-link:focus,
+.navbar-nav-custom .nav-item .nav-link:active {
+  color: #FFFFFF !important;
+
+}
+
+.nav-link-custom {
+  width: 89px;
+  height: 36px;
+  width: 89px;
+  height: 36px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+}
+
+.offcanvas-body-custom {
+  justify-content: end;
+}
+
+.button_custom:hover .nav-link,
+.button_custom:focus .nav-link,
+.button_custom:active .nav-link {
+  border: none;
+  border-radius: 100px;
+  background: linear-gradient(to bottom, #ffffff 0%, #202020 100%);
+  box-shadow:
+    inset 0px 3px 1.6px #ffffff,
+    inset -1px 0px 2.4px #ffffff,
+    inset -2px 0px 4px #4D4D4D,
+    inset 2px 0px 3.1px #4D4D4D,
+    inset 0px -2px 3px #ffffff,
+    inset 0px -3px 3.2px #BDBDBD;
+
+}
+
+
+.container-fluid-custom {
+  padding: 0px;
+  justify-content: space-evenly !important;
+
+}
+
+.custom {
+  padding-left: 30px;
+}
+
+.navbar-nav-custom {
+  padding: 0px 0px 0px 60px;
+}
+
+@media screen and (max-width : 768px) {
+
+   .section-title {
+  margin-bottom: 26px;
+}
+
+
+  .text-end {
+    text-align: center !important;
+  }
+
+  .service-img {
+    width: 392px;
+    height: 674px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;   /* 靠右（和你截图一致） */
+  }
+
+  
+.container-fluid_2 {
+  padding:60px 15px 60px 15px;
+  
+}
+
+  .container-fluid {
+  padding:0 15px 0 15px;
+  
+}
+
+  .service-desc {
+  margin-bottom: 120px;
+}
+
+
+
+  .section-1 {
+  padding: 87px 0 60px 0;
+}
+
+ p,
+  li {
+    font-size: 13px;
+  }
+
+  .pt-sans-regular {
+
+    font-size: 16px;
+
+  }
+
+  h1 {
+    font-size:64px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  
+
+
+  
+
+
+  .content-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .button_custom:hover .nav-link,
+  .button_custom:focus .nav-link,
+  .button_custom:active .nav-link {
+    border: none;
+    border-radius: 100px;
+    background: none;
+    box-shadow: none;
+
+  }
+
+  .offcanvas-body-custom {
+    justify-content: end;
+  }
+
+  .nav-link-custom {
+
+    justify-content: start !important;
+
+  }
+
+  .navbar-nav-custom {
+    padding: 0px;
+  }
+
+  .navbar-nav-custom {
+    margin-right: 0px;
+
+  }
+
+  .offcanvas-body .navbar-nav-custom {
+    justify-content: flex-start !important;
+    padding-left: 0 !important;
+  }
+
+  .offcanvas-body .navbar-nav-custom .button_custom {
+    margin-left: 0 !important;
+  }
+
+
+  .footer {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .footer .row {
+    justify-content: center;
+  }
+
+  .footer_logo img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .footer_icon {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .footer_icon .row {
+    justify-content: center;
+  }
+
+  .footer_link {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    padding-left: 10%;
+  }
+
+  .footer_link a {
+    margin-bottom: 25px;
+  }
+
+  .footer_contact {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer_logo {
+    padding-bottom: 42px;
+  }
+
+}
+
+
+@media screen and (max-width : 575px) {
+
+  .bg2 {
+    background-position: center bottom;
+  }
+
+  .section-2 .row > div:first-child {
+    order: 2;   /* 图片 */
+  }
+
+  .section-2 .row > div:last-child {
+    order: 1;   /* 文字 */
+  }
+
+  .section-title {
+  margin-bottom: 26px;
+}
+
+  .services-content_1{
+  padding-top:0;
+}
+
+  .logo_img_custom{
+        width: 40vw;
+        height: 10vw;
+    }
+
+  .container-fluid_2 {
+  padding:60px 15px 60px 15px;
+  
+}
+
+  .container-fluid {
+  padding:0 15px 0 15px;
+  
+}
+
+  .service-img {
+    width: 100%;
+    height: 320px;        /* 👈 你可以之后微调 */
+    object-fit: cover;   /* 👈 核心 */
+    padding-top: 36px; ;
+  }
+
+  .service-desc {
+  margin-bottom: 54px;
+}
+
+  .img,
+  .img_2 {
+    transform: none;   /* 取消位移 */
+  }
+
+  .content-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  p,
+  li {
+    font-size: 13px;
+  }
+
+  .pt-sans-regular {
+
+    font-size: 13px;
+
+  }
+
+  .learn-more-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: "Signika", sans-serif;
+  height:45px;
+  padding: 0 20px;
+  border-radius: 13px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+
+  background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
+  
+  transition: all 0.3s; /* 平滑过渡 */
+}
+
+/* hover 时按钮变宽，箭头滑动 */
+.learn-more-button:hover,
+.learn-more-button:focus {
+  background: linear-gradient(to bottom, #ffffff 0%, #202020 100%);
+  box-shadow:
+    inset 0px 3px 1.6px #ffffff,
+    inset -1px 0px 2.4px #ffffff,
+    inset -2px 0px 4px #4D4D4D,
+    inset 2px 0px 3.1px #4D4D4D,
+    inset 0px -2px 3px #ffffff,
+    inset 0px -3px 3.2px #BDBDBD;
+
+  padding-right: 35px; /* hover时右边多出空间让箭头滑动 */
+}
+
+.button-arrow {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+/* 箭头向右滑动 */
+.learn-more-button:hover .button-arrow {
+  transform: translateX(10px);
+}
+
+/* 箭头滑动效果 */
+.button-arrow {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .footer_contact {
+    padding-top: 7%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_icon .col-auto {
+    margin: 0 0px;
+    padding-bottom: 10%;
+  }
+
+  .footer_link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 3%;
+    padding-top: 3%;
+  }
+
+
+  .nav-link-custom {
+    justify-content: start !important;
+
+  }
+}
